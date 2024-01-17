@@ -19,17 +19,18 @@ def calculadora_v0():
         print('No selecciono un operador valido.') 
 
 
-#calculadora_v0()
+calculadora_v0()
 #no es mucho, pero es trabajo honesto (?)
 
 #voy editando un poco el codigo
         
-        
+
 def calculadora_v01():
     numero1 = int(input('Ingresa el primer numero\n'))
     operacion = (input('ingresa la operacion matematica (+ - * /)\n'))
     numero2 = int(input('ingresa el segundo numero\n'))
     resultado = 'Incorrecto debido a que no selecciono un operador valido'
+    #tambien puedo asignar un valor None para no dejar la variable vacia
 
     if operacion == '+':
         resultado = (numero1 + numero2)
