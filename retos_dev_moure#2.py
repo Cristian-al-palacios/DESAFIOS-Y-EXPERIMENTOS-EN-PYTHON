@@ -47,19 +47,19 @@ def funci_anagrama():
         print(False)
 
 funci_anagrama()
+
     
 #un poquito de estetica
 
-
 def funcion_anagrama():
 
-    palabra1=(input('Ingresa 1er palabra:\n'))
+    pal1=(input('Ingresa 1er palabra:\n'))
     
-    palabra2=(input('Ingresa 2da palabra:\n'))
+    pal2=(input('Ingresa 2da palabra:\n'))
     
-    if palabra1.lower() == palabra2.lower():
+    if pal1.lower() == pal2.lower():
         print ('No son Anagramas')
-    elif sorted(palabra1.lower()) == sorted(palabra2.lower()):
+    elif sorted(pal1.lower()) == sorted(pal2.lower()):
         print ('Son Anagramas')
     else:
         print('No son Anagramas')
