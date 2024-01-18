@@ -7,11 +7,19 @@
  *   0, 1, 1, 2, 3, 5, 8, 13...
  */
 """
+#Este ejercicio me tuvo horas pensando, creando y sumando variables.
+#cuando relaje la cabeza pienso la manera de hacerlo diferente.
 
 def fibonacci():
-    for i in range (0,50):
+    
+    num_a = 0   
+    print(num_a) 
+    num_b = 1
+    print(num_b)
 
-
-
+    for i in range (48):
+        
+        num_a, num_b = num_b, num_a + num_b
+        print(num_b)
 
 fibonacci()
