@@ -19,16 +19,17 @@ def calculadora_v0():
         print('No selecciono un operador valido.') 
 
 
-calculadora_v0()
+#calculadora_v0()
 #no es mucho, pero es trabajo honesto (?)
 
 #voy editando un poco el codigo
         
 
 def calculadora_v01():
-    numero1 = int(input('Ingresa el primer numero\n'))
-    operacion = (input('ingresa la operacion matematica (+ - * /)\n'))
-    numero2 = int(input('ingresa el segundo numero\n'))
+    numero1 = int(input('Ingresa el primer numero:\n'))
+    operacion = (input('Ingresa la operacion matematica\n+ Suma \n- Resta \n* Multiplicacion\n\
+/ Division\n** Exponente \n% Modulo)\n'))
+    numero2 = int(input('Ingresa el segundo numero:\n'))
     resultado = 'Incorrecto debido a que no selecciono un operador valido'
     #tambien puedo asignar un valor None para no dejar la variable vacia
 
@@ -40,6 +41,10 @@ def calculadora_v01():
         resultado = (numero1 * numero2)
     elif operacion == '/':
         resultado = (numero1 / numero2)
+    elif operacion == '**':
+        resultado = (numero1 ** numero2)
+    elif operacion == '%':
+        resultado = (numero1 % numero2)
     else:
         print('No selecciono un operador valido.') 
 
