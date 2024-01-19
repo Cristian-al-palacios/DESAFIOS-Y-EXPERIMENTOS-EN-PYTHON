@@ -19,7 +19,7 @@ def calculadora_v0():
         print('No selecciono un operador valido.') 
 
 
-calculadora_v0()
+#calculadora_v0()
 #no es mucho, pero es trabajo honesto (?)
 
 #voy editando un poco el codigo
