@@ -17,9 +17,11 @@ def fibonacci():
     num_b = 1
     print(num_b)
 
-    for i in range (48):
+    for numeros in range (48):
         
         num_a, num_b = num_b, num_a + num_b
         print(num_b)
 
 fibonacci()
+
+  

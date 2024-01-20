@@ -27,7 +27,7 @@ def func_anagrama():
         print(False)
 
 
-func_anagrama()
+#func_anagrama()
 
 #cuando entendi el metodo, busque la forma de simplificarlo.
 #Y solucione la deteccion de mayusculas y minusculas
@@ -46,7 +46,7 @@ def funci_anagrama():
     else:
         print(False)
 
-funci_anagrama()
+#funci_anagrama()
 
     
 #un poquito de estetica

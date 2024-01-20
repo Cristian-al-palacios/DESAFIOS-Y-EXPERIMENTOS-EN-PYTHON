@@ -68,3 +68,6 @@ def num_primos_input_lista():
 
 
 num_primos_input_lista() #pedira valores para el principio y fin del rango, dira si son o no primos y generara una lista con los que lo sean
+
+
+        
